@@ -1,0 +1,17 @@
+/*
+Theme Name: PlainText
+Description: Used to style the TinyMCE editor.
+You can modify this template according to your needs !
+*/
+
+body
+{
+	background-color: #fff;
+	max-width: 800px;
+	margin: 1px auto;
+	color: #111;
+	font-family: sans-serif;
+	line-height: 1.5;
+	letter-spacing: 0.5px;
+}
+
