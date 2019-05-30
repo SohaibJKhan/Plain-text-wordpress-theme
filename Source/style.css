@@ -1,0 +1,701 @@
+/*
+Theme Name: PlainText
+Theme URI: http://wpnik.com/
+Author: Pramod Jodhani
+Author URI: https://profiles.wordpress.org/promz
+Description: A Clear and Simple Theme for Blogs!
+Version: 1.0.2
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: plaintext
+Tags: custom-colors, custom-menu, custom-logo, blog, featured-images, post-formats, rtl-language-support, threaded-comments, translation-ready
+
+Sohaib Khan's modification statement:
+I've modified the site to have the sidebar show up as transparent by using a white color scheme. I've also centered the logo
+
+I recieved help from:
+https://stackoverflow.com/questions/46275917/how-to-center-image-vertically-in-div - Emaro
+*/
+body
+{
+	font-size: 20px;
+}
+
+/*.wp-caption
+{
+
+}*/
+
+.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 1.5em;
+}
+
+.alignright {
+	display: inline;
+	float: right;
+	margin-left: 1.5em;
+}
+
+.aligncenter {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/*.bypostauthor 
+{
+
+}
+
+.gallery-caption 
+{
+
+}
+.wp-caption-text 
+{
+
+}
+*/
+img
+{
+	max-width: 100%;
+}
+
+p
+{
+	margin-bottom: 30px;
+}
+a:hover
+{
+	color: #111;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+	font-weight: 600;
+	color: #000;
+	margin-bottom: 30px;
+}
+blockquote
+{
+	font-size: 20px;
+	color: #828282;
+    border-left: 5px solid #e8e8e8;
+    padding-left: 30px;
+    font-style: italic;
+}
+
+ul,li
+{
+	list-style: none;
+}
+
+table , tr,th,td
+{
+	border:1px solid #000;
+	padding: 10;
+}
+
+ol>li>p
+{
+	font-size:20px;
+	color:#000000;
+	margin-bottom:30px;
+}
+option
+{
+	font-size:25px;
+	color:#828282;
+	margin-left:-5px;
+	margin-bottom:10px;
+}
+
+.error404>header
+{
+	display: none;
+}
+.error404
+{
+	background: #f4f6f6;
+}
+
+.error404> .page-content> .wrapper
+{
+	background: #eee;
+}
+
+.wrapper
+{
+	max-width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 60px;
+    padding-left: 60px;
+}
+
+.post-header
+{
+	margin-bottom: 60px;
+}
+
+.primary_sidebar
+{
+	background-color: #fffff;
+	text-align: center;
+	line-height: 2;
+	padding: 0px 0px;
+	word-wrap: break-word;
+}
+
+.plaintext_single
+{
+	max-width: 900px;
+	margin: 0 auto;
+	padding-left: 60px;
+	width: 100%;
+}
+
+.widget
+{
+	margin-bottom: 40px;
+}
+
+.page-content
+{
+	padding: 60px 0;
+}
+
+#content
+{
+	max-width: 700px;
+	width: 100%;
+}
+
+.site_header
+{
+	min-height: 111.9px;
+	margin: 0 auto;
+	padding-top: 14px;
+	position:relative;
+}
+
+.links
+{
+	margin-top: 15px;
+	line-height: 70px;
+	text-align: center;
+	float: right;
+}
+
+.site-title>a
+{
+	font-size:32.5px;
+	font-weight: 500;
+	color: #111;
+	text-decoration: none;
+}
+
+.site-title>a:hover
+{
+	color: #111;
+	text-decoration: none;
+}
+
+.logo
+{
+	line-height: 70px;
+	max-width: 300px !important;
+	max-height: 111.9px;
+	overflow: hidden;
+	position: absolute;
+ 	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%,-50%);
+}
+
+.logo>a>img
+{
+	max-width: 100%;
+}
+
+.header_menu>li
+{
+	float:left;
+	list-style:none;
+	font-size:20px;
+	font-weight: 500;
+	text-decoration: underline;
+}
+
+.header_menu>li>a
+{
+	color:#111;
+}
+
+#text-7 h3
+{
+	font-size: 32.5px;
+	font-weight: 300;
+	letter-spacing: -1px;
+	color:#424242;
+}
+
+.textwidget>ol
+{
+	margin-left:20px;
+}
+
+.textwidget>ol>li
+{
+	margin-bottom: 30px;
+	font-size: 20px;
+	font-weight: 300;
+	color: #000;
+	line-height: 40px;
+}
+
+
+#left_head li
+{
+	margin-left:-35px
+}
+
+#blog_posts_page
+{
+	margin-bottom:60px;
+}
+
+.post_date
+{
+	font-size:17.5px;
+	color : #828282;
+}
+
+.post-content>p
+{
+	font-size:20px;
+	margin-bottom:30px;
+	color:#000000;
+}
+
+.post-title
+{
+	color:#000;
+	font-weight:600;
+	font-size:52.4px;
+	margin-bottom:60px;
+	letter-spacing:-1px;
+}
+
+.show_posts
+{
+	list-style:none;
+}
+
+.show_posts
+{
+	margin-bottom:30px;
+}
+.show_posts>li
+{
+	font-size:20px;
+	margin-bottom:10px;
+}
+
+.show_posts>li>a
+{
+	color :#1ea0a3;
+	margin-left:-40px
+}
+
+.show_posts>li>a:hover
+{
+	color:#000000;
+}
+
+.show_posts>li>a:visited
+{
+	color :#126162;	
+}
+
+#posts
+{
+	max-width:780px;
+}
+
+.blog_heading
+{
+	font-size:51.2px;
+	color:#000;
+	margin-bottom:60px;
+}
+
+#post_comments
+{
+	max-width:780px;
+}
+
+#post_content>p
+{
+	font-size:20px;
+	color:#000000;
+	margin-bottom:60px;	
+}
+
+#post_heading
+{
+	font-size: 52.5px;
+	letter-spacing: -1px;
+	line-height: 1;
+}
+
+.comments-title
+{
+	margin-bottom:30px;
+	color :#000;
+	padding:5px 0px;
+	border-bottom:1.5px solid #000000;
+	display:inline-block;
+	font-size:20px;
+}
+
+.comment-list
+{
+	padding-left: 16px;
+	margin-left:-15px;
+	list-style: none;
+}
+
+.fn>a
+{
+	color: #000;
+}
+
+.fn>a:hover
+{
+	color:#000;
+}
+
+.fn
+{
+	color:#000;	
+	font-weight:600;
+	font-style:normal;
+	letter-spacing:1px;
+	font-size:18px;
+}
+
+.comment-author span
+{
+	font-size:15px;
+	font-weight: 500;
+}
+
+.comment-author
+{
+	margin-bottom:10px;
+}
+
+.reply
+{
+	margin-bottom:30px;
+}
+
+.reply>a
+{
+	color: #000;
+	font-size: 14px;
+}
+
+#custom-title
+{
+	font-size: 20px;
+
+}
+
+.comment-meta
+{
+	float: right;
+	font-size:15px;
+	margin-bottom:15px;
+}
+
+.comment-meta>a
+{
+	color: #111;
+	font-size: 12px;
+	font-style: italic;
+}
+
+
+.comment-body>p
+{
+	font-size:20px;
+	line-height:35px;
+	margin-bottom:20px;
+}
+
+#respond
+{
+	margin-top:60px !important;
+}
+
+.logged-in-as
+{
+	font-size:20px;
+	margin-top:20px;
+	margin-bottom:40px;
+}
+
+.logged-in-as>a
+{
+	color: #000;
+}
+
+.logged-in-as>a:hover
+{
+	color: #000;
+}
+
+#comment_box
+{
+	margin-bottom:40px;
+	resize:none;
+	width: 100%;
+}
+
+.form-submit
+{
+ text-align: center;
+}
+
+.submit
+{
+	background:#000;
+	padding:5px;
+	color:#fff;
+	font-weight:600;
+	border:2px solid black;
+	width:150px;
+}
+.page_title_heading>a
+{
+	color: #000;
+}
+
+.page_title_heading>a:hover
+{
+	color: #000;
+}
+.nav-links
+{
+	padding:30px 0px 0px 0px;
+}
+
+.nav-links>a, .nav-links>span
+{
+	margin-right: 10px;
+	color: #000;
+}
+
+.screen-reader-text
+{
+	display:none;
+}
+
+.show_post_details
+{
+	display:inline-flex;
+	font-size:20px;
+	margin-top:10px;
+}
+
+/*.pagexofy
+{
+	float: right;
+	margin-top: 40px !important;
+}
+
+.page-numbers
+{
+	float: left;
+	padding:0 !important;
+	padding-top: 20px !important;
+}
+
+.page-numbers>li
+{
+	float: left;
+	margin-right: 10px;
+}*/
+
+/*
+  ***  DROPDOWN MENU CSS ***
+*/
+
+#cssmenu,
+#cssmenu ul,
+#cssmenu li,
+#cssmenu a {
+	border: none;
+	margin: 0;
+	padding: 0;
+	line-height: 1 !important;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+
+#cssmenu {
+	display: block;
+	padding: 0;
+	margin: 0;
+	width: auto;
+}
+
+#cssmenu > ul {
+	list-style: inside none;
+	padding: 0;
+	margin: 0;
+}
+#cssmenu > ul > li {
+	list-style: inside none;
+	padding: 0;
+	margin: 0;
+	float: left;
+	display: block;
+	position: relative;
+}
+#cssmenu > ul > li > a {
+	outline: none;
+	display: block;
+	position: relative;
+	padding: 12px 20px;
+	text-align: center;
+	text-decoration: none;
+
+}
+#cssmenu > ul > li > a:hover {
+
+	color:#000;
+}
+#cssmenu > ul > li:first-child > a {
+
+}
+#cssmenu > ul > li > a:after {
+	content: '';
+	position: absolute;
+
+	top: -1px;
+	bottom: -1px;
+	right: -2px;
+	z-index: 99;
+ 
+}
+
+#cssmenu ul li.has-sub:hover > a:after {
+	top: 0;
+	bottom: 0;
+}
+#cssmenu > ul > li.has-sub > a:before {
+	content: '';
+	position: absolute;
+	top: 18px;
+	right: 6px;
+}
+#cssmenu > ul > li.has-sub:hover > a:before {
+	top: 19px;
+}
+#cssmenu ul li.has-sub:hover > a {
+	padding-bottom: 13px;
+	padding-top: 13px;
+	top: -1px;
+	z-index: 999;
+}
+#cssmenu ul li.has-sub:hover > ul,
+#cssmenu ul li.has-sub:hover > div {
+	display: block;
+}
+#cssmenu ul li.has-sub > a:hover {
+
+}
+#cssmenu ul li > ul,
+#cssmenu ul li > div {
+	display: none;
+	width: auto;
+	position: absolute;
+	top: 38px;
+	padding: 10px 0;
+	color:#000;
+	z-index: 999;
+
+}
+#cssmenu ul li > ul {
+	width: 200px;
+	color:#000;
+}
+#cssmenu ul li > ul li {
+	display: block;
+	list-style: inside none;
+	padding: 0;
+	margin: 0;
+	position: relative;
+}
+
+#cssmenu ul li > ul li>ul
+{
+	left:200px;
+	top:-5px;
+}
+#cssmenu ul li > ul li a {
+	outline: none;
+	display: block;
+	position: relative;
+	margin: 0;
+	padding: 10px 20px;
+	color: #000;
+	text-decoration: none;
+	border-bottom:1px solid #000;
+	background:white;
+}
+
+
+/* 
+ *** END DROPDOWN MENU CSS ***
+*/
+
+.woocommerce .col2-set .col-1, .woocommerce-page .col2-set .col-1 {
+    max-width: 100%;
+}
+.woocommerce .col2-set .col-2, .woocommerce-page .col2-set .col-2 {
+    max-width: 100%;
+	
+}
+
+.site_header {
+	background-size: cover;
+}
+
+/* 
+	MEDIA QUERIES
+*/
+@media only screen and (max-width : 768px)
+{
+	#post_heading , .blog_heading
+	{
+		font-size: 30px;
+	}
+	
+}
+
+@media only screen and (max-width: 500px)
+{
+	.col-8
+	{
+		width: 100% !important;
+	}
+}
